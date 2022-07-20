@@ -1,11 +1,12 @@
-#YOUSSEF GEORGE
+# KEROLLOS WAGEEH
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.cluster import KMeans
 
-# Reading data from local csv file
+# Reading data from iris dataset
 iris = datasets.load_iris()
 iris_data = pd.DataFrame(iris.data, columns= iris.feature_names)
 
