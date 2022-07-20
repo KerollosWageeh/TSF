@@ -20,7 +20,7 @@ for i in range(1, 11):
     kmeans.fit(x)
     wcss.append(kmeans.inertia_)
 
-plt.plot(range(1,11),wcss)
+plt.plot(range(1,11),wcss, 'rx-')
 plt.xlabel('# of clusters')
 plt.ylabel('Within cluster sum of squares')
 plt.show()
