@@ -22,7 +22,7 @@ for i in range(1, 11):
 
 plt.plot(range(1,11),wcss, 'rx-')
 plt.xlabel('# of clusters')
-plt.ylabel('Within cluster sum of squares')
+plt.ylabel('Within Cluster Sum of Squares (WCSS)')
 plt.show()
 
 
